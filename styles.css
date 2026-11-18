@@ -1,0 +1,92 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0b1f3a;
+  color: #fff;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 56px 24px;
+}
+img.icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 26px;
+}
+h1 { font-size: 2.2rem; margin: 20px 0 8px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+p { color: #c9d6ea; line-height: 1.6; }
+a { color: #9ec1ff; }
+.btn {
+  display: inline-block;
+  margin: 24px 0;
+  padding: 14px 28px;
+  background: #fff;
+  color: #0b1f3a;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  color: #e6edf7;
+  line-height: 2;
+}
+footer {
+  font-size: .85rem;
+  color: #8ea3c2;
+  margin-top: 40px;
+}
+footer a { color: #8ea3c2; }
+footer nav { margin-top: 8px; }
+footer nav a { margin: 0 2px; }
+
+/* Homepage stays centered */
+body.home { text-align: center; }
+
+/* Long-form pages: left-aligned and readable */
+body.legal main {
+  max-width: 720px;
+  text-align: left;
+  padding: 40px 24px 64px;
+}
+body.legal h1 {
+  font-size: 1.85rem;
+  margin: 12px 0 8px;
+}
+body.legal h2 {
+  font-size: 1.15rem;
+  margin: 28px 0 10px;
+  color: #fff;
+}
+body.legal p,
+body.legal li {
+  color: #c9d6ea;
+  line-height: 1.7;
+}
+body.legal ul {
+  padding-left: 1.25rem;
+  margin: 8px 0 16px;
+  color: #c9d6ea;
+}
+body.legal li { margin: 4px 0; }
+body.legal .meta {
+  color: #8ea3c2;
+  margin: 0 0 6px;
+}
+body.legal .back {
+  margin: 0 0 24px;
+  font-size: .9rem;
+}
+body.legal .back a {
+  color: #8ea3c2;
+  text-decoration: none;
+}
+body.legal .back a:hover { text-decoration: underline; }
+body.legal .lead { margin-top: 20px; }
+body.legal footer { text-align: left; }
